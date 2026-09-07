@@ -6,6 +6,7 @@ A RimWorld 1.6 Ideology ritual with one to three storytellers around a native ca
 - [繁體中文](Docs/繁體中文.md)
 - [简体中文](Docs/简体中文.md)
 - [日本語](Docs/日本語.md)
+- [한국어](Docs/한국어.md)
 - [Development walkthrough](Docs/Walkthrough-下一輪修正.md)
 - [Test record](Docs/Validation.md)
 - [Build instructions](Docs/Development.md)

@@ -11,7 +11,7 @@ foreach($file in Get-ChildItem $englishRoot -Recurse -Filter '*.xml') {
     $baseline[$relative] = @{}
     foreach($entry in $document.LanguageData.ChildNodes) { if($entry.NodeType -eq 'Element') { $baseline[$relative][$entry.Name]=$entry.InnerText } }
 }
-foreach($language in @('English','ChineseTraditional','ChineseSimplified','Japanese')) {
+foreach($language in @('English','ChineseTraditional','ChineseSimplified','Japanese','Korean')) {
     $count = 0
     foreach($relative in $baseline.Keys) {
         [xml]$document = Get-Content "$modRoot/Languages/$language/$relative" -Raw

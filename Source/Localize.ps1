@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 $modRoot = Split-Path $PSScriptRoot -Parent
-$languages = @('English','ChineseTraditional','ChineseSimplified','Japanese')
+$languages = @('English','ChineseTraditional','ChineseSimplified','Japanese','Korean')
 $strings = @{
  CS_ModeBase = @('Mode: ordinary ritual (AI unavailable)','目前模式：普通儀式（AI 未啟用或不可用）','当前模式：普通仪式（AI 未启用或不可用）','現在：通常の儀式（AI は利用できません）')
  CS_ModeRimTalk = @('Mode: RimTalk conversation history; uses RimTalk API settings','目前模式：RimTalk 對話記憶；沿用本體 API 設定','当前模式：RimTalk 对话记忆；沿用本体 API 设置','現在：RimTalk の会話履歴・API 設定を使用')
@@ -48,6 +48,15 @@ $defs = @{
  'ThoughtDef/CS_Warm.stages.0.description' = @('We shared a few stories and felt closer.','分享幾個故事後，我們更加親近了。','分享几个故事后，我们更加亲近了。','物語を語り合って、少し仲が深まった。')
  'ThoughtDef/CS_Unforgettable.stages.0.label' = @('unforgettable campfire stories','難忘的篝火故事','难忘的篝火故事','忘れられない焚き火の物語')
  'ThoughtDef/CS_Unforgettable.stages.0.description' = @('Those voices by the fire will stay with me.','火邊那些聲音，我會一直記得。','火边那些声音，我会一直记得。','火のそばで聞いた声を、ずっと覚えているだろう。')
+}
+$korean = Import-PowerShellDataFile (Join-Path $PSScriptRoot 'Korean.psd1')
+foreach ($key in @($strings.Keys)) {
+    if (!$korean.Strings.ContainsKey($key)) { throw "Missing Korean key: $key" }
+    $strings[$key] += $korean.Strings[$key]
+}
+foreach ($key in @($defs.Keys)) {
+    if (!$korean.Defs.ContainsKey($key)) { throw "Missing Korean definition: $key" }
+    $defs[$key] += $korean.Defs[$key]
 }
 function Save-LanguageXml($path, $entries) {
     $document = New-Object System.Xml.XmlDocument

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.roles.0.label>이야기꾼 (선택 사항)</CS_Stories.roles.0.label>
+  <CS_Stories.spectatorGerund>이야기 듣기</CS_Stories.spectatorGerund>
+  <CS_Stories.spectatorsLabel>청중</CS_Stories.spectatorsLabel>
+  <CS_Stories.stages.0.failTriggers.0.desc>모닥불이 없어졌습니다.</CS_Stories.stages.0.failTriggers.0.desc>
+  <CS_Stories.stages.0.failTriggers.1.desc>모닥불이 꺼졌습니다.</CS_Stories.stages.0.failTriggers.1.desc>
+</LanguageData>

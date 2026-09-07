@@ -10,3 +10,5 @@ Gallery: Artwork/Workshop/01-settings.png, 02-storyteller.jpg and 03-next-storyt
 2026-09-07: updated descriptions, optional mod requirements, GitHub source link and handover statement; removed outdated pending-test claims using the author's play-test report.
 
 2026-09-07, 0.2.1: dedicated campfire ritual icon and simplified player instructions. Test records stay in Validation.md rather than the Workshop descriptions.
+
+0.2.2: added Korean player documentation and the koreana Workshop language field. Update only Korean text, package content and change notes. Preserve visibility, cover, gallery and all existing language fields.

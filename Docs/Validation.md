@@ -17,3 +17,7 @@ Test logs are retained outside the release package under the isolated test-base,
 ## 0.2.1 icon update
 
 The generated campfire PNG has an RGBA alpha channel and transparent corners. Both the precept and ritual pattern reference its dedicated texture. The game self-test passed all 13 checks, including actual texture loading, migration of the old festival icon and preservation of custom overrides. Public-facing descriptions omit historical test summaries; this document retains the development record.
+
+## 0.2.2 — Korean localization
+
+Added Korean translations for all 39 interface and ritual fields, including the default prompt, ritual outcomes and mood descriptions. Korean XML parses and its keys, definition targets and placeholders match English. No runtime code or assemblies changed.

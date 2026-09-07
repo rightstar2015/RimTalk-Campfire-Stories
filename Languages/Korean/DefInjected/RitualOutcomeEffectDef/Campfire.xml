@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.comps.0.label>참가자 수</CS_Stories.comps.0.label>
+  <CS_Stories.description>의식의 품질에 따라 {MOODDAYS}일 동안 지속되는 기분 기억을 얻습니다. 연결 속도는 품질에 영향을 주지 않습니다.</CS_Stories.description>
+  <CS_Stories.outcomeChances.0.description>{0}: 모닥불 곁에서 고요한 저녁을 보냈습니다.</CS_Stories.outcomeChances.0.description>
+  <CS_Stories.outcomeChances.0.label>고요함</CS_Stories.outcomeChances.0.label>
+  <CS_Stories.outcomeChances.1.description>{0}: 모두가 조금 더 가까워졌습니다.</CS_Stories.outcomeChances.1.description>
+  <CS_Stories.outcomeChances.1.label>따뜻함</CS_Stories.outcomeChances.1.label>
+  <CS_Stories.outcomeChances.2.description>{0}: 의식 자체가 기억에 남을 이야기가 되었습니다.</CS_Stories.outcomeChances.2.description>
+  <CS_Stories.outcomeChances.2.label>잊지 못할 순간</CS_Stories.outcomeChances.2.label>
+</LanguageData>
