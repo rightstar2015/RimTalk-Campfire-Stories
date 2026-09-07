@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.roles.0.label>語り手（任意）</CS_Stories.roles.0.label>
+  <CS_Stories.spectatorGerund>話を聞く</CS_Stories.spectatorGerund>
+  <CS_Stories.spectatorsLabel>聞き手</CS_Stories.spectatorsLabel>
+  <CS_Stories.stages.0.failTriggers.0.desc>焚き火がなくなりました。</CS_Stories.stages.0.failTriggers.0.desc>
+  <CS_Stories.stages.0.failTriggers.1.desc>焚き火が消えました。</CS_Stories.stages.0.failTriggers.1.desc>
+</LanguageData>

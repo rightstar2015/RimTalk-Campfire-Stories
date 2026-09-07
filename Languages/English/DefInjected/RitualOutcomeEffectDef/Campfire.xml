@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.comps.0.label>participant count</CS_Stories.comps.0.label>
+  <CS_Stories.description>Ritual quality grants a mood memory lasting {MOODDAYS} days. Connection speed does not affect quality.</CS_Stories.description>
+  <CS_Stories.outcomeChances.0.description>The {0} was a quiet evening by the fire.</CS_Stories.outcomeChances.0.description>
+  <CS_Stories.outcomeChances.0.label>Quiet</CS_Stories.outcomeChances.0.label>
+  <CS_Stories.outcomeChances.1.description>The {0} brought everyone a little closer.</CS_Stories.outcomeChances.1.description>
+  <CS_Stories.outcomeChances.1.label>Warm</CS_Stories.outcomeChances.1.label>
+  <CS_Stories.outcomeChances.2.description>The {0} became a story worth remembering.</CS_Stories.outcomeChances.2.description>
+  <CS_Stories.outcomeChances.2.label>Unforgettable</CS_Stories.outcomeChances.2.label>
+</LanguageData>

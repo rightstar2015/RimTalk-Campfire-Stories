@@ -1,0 +1,12 @@
+# Local tools, credentials and build intermediates
+.vs/
+.vscode/
+**/obj/
+**/bin/
+*.user
+*.suo
+*.pdb
+.env
+.env.*
+**/PrivateWorkshopReceipt.txt
+*.zip

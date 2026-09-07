@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.comps.0.label>參與人數</CS_Stories.comps.0.label>
+  <CS_Stories.description>儀式品質帶來持續 {MOODDAYS} 天的心情記憶。連線速度不影響品質。</CS_Stories.description>
+  <CS_Stories.outcomeChances.0.description>{0} 是篝火旁一個寧靜的夜晚。</CS_Stories.outcomeChances.0.description>
+  <CS_Stories.outcomeChances.0.label>寧靜</CS_Stories.outcomeChances.0.label>
+  <CS_Stories.outcomeChances.1.description>{0} 讓大家更加親近。</CS_Stories.outcomeChances.1.description>
+  <CS_Stories.outcomeChances.1.label>溫暖</CS_Stories.outcomeChances.1.label>
+  <CS_Stories.outcomeChances.2.description>{0} 本身也成了值得記住的故事。</CS_Stories.outcomeChances.2.description>
+  <CS_Stories.outcomeChances.2.label>難忘</CS_Stories.outcomeChances.2.label>
+</LanguageData>

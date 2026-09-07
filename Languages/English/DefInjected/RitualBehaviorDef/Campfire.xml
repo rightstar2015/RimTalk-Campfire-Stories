@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.roles.0.label>storyteller (optional)</CS_Stories.roles.0.label>
+  <CS_Stories.spectatorGerund>listen</CS_Stories.spectatorGerund>
+  <CS_Stories.spectatorsLabel>listeners</CS_Stories.spectatorsLabel>
+  <CS_Stories.stages.0.failTriggers.0.desc>The campfire is missing.</CS_Stories.stages.0.failTriggers.0.desc>
+  <CS_Stories.stages.0.failTriggers.1.desc>The campfire is not lit.</CS_Stories.stages.0.failTriggers.1.desc>
+</LanguageData>

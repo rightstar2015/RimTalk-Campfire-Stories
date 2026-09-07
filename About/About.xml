@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RimTalk - Campfire Stories</name>
+  <author>SakicatS</author>
+  <packageId>sakicats.rimtalk.campfirestories</packageId>
+  <modVersion>0.2.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>RimTalk - Campfire Stories brings one to three colonists together around a native campfire to face their audience and share small moments from their lives. Everyday life, battles, relationships and remembrance are all welcome topics.
+
+## Mods for the intended experience
+
+You can perform the cultural ritual without these mods, but it will lack the experience I originally wanted to create.
+
+- [RimTalk](https://steamcommunity.com/workshop/filedetails/?id=3551203752): enables the full “take the floor → give a speech” dialogue sequence, using RimTalk's existing model and API settings.
+- [RimTalk - Expand Memory](https://steamcommunity.com/sharedfiles/filedetails/?id=3608181242): enables random selection from each storyteller's own expanded memories.
+
+## How it works
+
+Requires RimWorld 1.6 and Ideology. Without RimTalk, the ordinary ritual and its standard outcomes still work. With RimTalk, speakers generate dialogue from their own built-in conversation history; adding Expand Memory switches to their expanded memories. No second API key setup is needed. No special interaction actions or explicit memory writeback are added.
+
+## Getting started
+
+1. Add **war song** to your ideology, then build and light a native campfire.
+2. Choose participants and nominate up to three storytellers. Leave the role empty to select one to three automatically.
+3. Start the ritual. Storytellers take turns facing the audience. When AI is available, the storyteller opens, listeners reply and the storyteller briefly closes.
+
+Settings include storyteller count, responding listeners, line length, timeout and a dedicated prompt. If AI is unavailable, the ordinary ritual continues. Install the prerequisites required by RimTalk and Expand Memory and load this addon after them.
+
+## Testing and behavior
+
+Live API dialogue, complete save/load cycles, custom races, large mod lists and audience-facing behavior have been tested in actual play and work normally.
+
+RimTalk manages its built-in conversation history; an empty history after restarting is normal. When no memory is available, dialogue uses present-day topics. AI content and line length depend on the model.
+
+## Source code and taking over the project
+
+I make this mod in my spare time. If it goes a long time without updates, just leave me a comment and you are welcome to take over the project.
+
+[GitHub / Source code](https://github.com/rightstar2015/RimTalk-Campfire-Stories)
+</description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Ideology</packageId>
+      <displayName>Ideology</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>cj.rimtalk</li>
+    <li>cj.rimtalk.expandmemory</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.roles.0.label>讲述者（选填）</CS_Stories.roles.0.label>
+  <CS_Stories.spectatorGerund>聆听</CS_Stories.spectatorGerund>
+  <CS_Stories.spectatorsLabel>听众</CS_Stories.spectatorsLabel>
+  <CS_Stories.stages.0.failTriggers.0.desc>篝火已消失。</CS_Stories.stages.0.failTriggers.0.desc>
+  <CS_Stories.stages.0.failTriggers.1.desc>篝火已熄灭。</CS_Stories.stages.0.failTriggers.1.desc>
+</LanguageData>

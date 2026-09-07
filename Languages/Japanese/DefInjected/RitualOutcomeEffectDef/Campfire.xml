@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CS_Stories.comps.0.label>参加人数</CS_Stories.comps.0.label>
+  <CS_Stories.description>儀式の質に応じて {MOODDAYS} 日間の心情の記憶を得ます。通信速度は質に影響しません。</CS_Stories.description>
+  <CS_Stories.outcomeChances.0.description>{0} は、焚き火のそばで静かに過ごすひとときになりました。</CS_Stories.outcomeChances.0.description>
+  <CS_Stories.outcomeChances.0.label>静かな夜</CS_Stories.outcomeChances.0.label>
+  <CS_Stories.outcomeChances.1.description>{0} で、みんなの距離が少し縮まりました。</CS_Stories.outcomeChances.1.description>
+  <CS_Stories.outcomeChances.1.label>温かな夜</CS_Stories.outcomeChances.1.label>
+  <CS_Stories.outcomeChances.2.description>{0} そのものが、心に残る物語になりました。</CS_Stories.outcomeChances.2.description>
+  <CS_Stories.outcomeChances.2.label>忘れられない夜</CS_Stories.outcomeChances.2.label>
+</LanguageData>
