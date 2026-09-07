@@ -3,7 +3,7 @@
   <name>RimTalk - Campfire Stories</name>
   <author>SakicatS</author>
   <packageId>sakicats.rimtalk.campfirestories</packageId>
-  <modVersion>0.2.0</modVersion>
+  <modVersion>0.2.1</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
@@ -22,17 +22,15 @@ Requires RimWorld 1.6 and Ideology. Without RimTalk, the ordinary ritual and its
 
 ## Getting started
 
-1. Add **war song** to your ideology, then build and light a native campfire.
-2. Choose participants and nominate up to three storytellers. Leave the role empty to select one to three automatically.
-3. Start the ritual. Storytellers take turns facing the audience. When AI is available, the storyteller opens, listeners reply and the storyteller briefly closes.
+1. Add **war song** to your ideology.
+2. Build and light a campfire, then select it to start the ritual.
+3. Choose participants and storytellers, then begin. You can nominate up to three storytellers or leave the role empty for automatic selection.
 
-Settings include storyteller count, responding listeners, line length, timeout and a dedicated prompt. If AI is unavailable, the ordinary ritual continues. Install the prerequisites required by RimTalk and Expand Memory and load this addon after them.
+## Settings
 
-## Testing and behavior
+Open **Campfire Stories** in the mod settings to adjust the number of automatically selected storytellers, replying listeners, characters per line and dialogue style. Edit the dedicated prompt to change the tone or topics.
 
-Live API dialogue, complete save/load cycles, custom races, large mod lists and audience-facing behavior have been tested in actual play and work normally.
-
-RimTalk manages its built-in conversation history; an empty history after restarting is normal. When no memory is available, dialogue uses present-day topics. AI content and line length depend on the model.
+Dialogue uses RimTalk's model and API settings. No separate API key is needed.
 
 ## Source code and taking over the project
 

@@ -8,3 +8,5 @@ Each UTF-8 BBCode file in Workshop/ belongs to its own Steam language field: eng
 Gallery: Artwork/Workshop/01-settings.png, 02-storyteller.jpg and 03-next-storyteller.jpg are the user-designated images 3, 4 and 5. Preserve the existing cover.
 
 2026-09-07: updated descriptions, optional mod requirements, GitHub source link and handover statement; removed outdated pending-test claims using the author's play-test report.
+
+2026-09-07, 0.2.1: dedicated campfire ritual icon and simplified player instructions. Test records stay in Validation.md rather than the Workshop descriptions.

@@ -13,3 +13,7 @@ Author-reported verification, 2026-09-07: live API dialogue, complete save/load 
 RimTalk history becoming empty after restarting is normal behavior. Present-day topics without memories and model-dependent text length are expected behavior, not pending defects. Other scenario-specific regression checks remain in the development walkthrough; the author's successful tests do not imply compatibility with every possible mod combination.
 
 Test logs are retained outside the release package under the isolated test-base, test-rimtalk and test-expanded directories. No paid API request was sent.
+
+## 0.2.1 icon update
+
+The generated campfire PNG has an RGBA alpha channel and transparent corners. Both the precept and ritual pattern reference its dedicated texture. The game self-test passed all 13 checks, including actual texture loading, migration of the old festival icon and preservation of custom overrides. Public-facing descriptions omit historical test summaries; this document retains the development record.

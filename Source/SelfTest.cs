@@ -36,7 +36,15 @@ namespace CampfireStories
                 Check("CS_Title".Translate().ToString() != "CS_Title", "localization resolves");
 
 
-                Log.Message("[CampfireSelfTest] COMPLETE 9 checks; no API calls.");
+                Check(pattern.iconPathOverride == RitualIconUpgrade.IconPath, "dedicated ritual icon path");
+                Check(ContentFinder<UnityEngine.Texture2D>.Get(RitualIconUpgrade.IconPath, false) != null, "dedicated icon texture loads");
+                var oldRitual = new Precept_Ritual { def = precept, iconPathOverride = "UI/Icons/Rituals/RitualFestival" };
+                RitualIconUpgrade.UpgradeIcon(oldRitual);
+                Check(oldRitual.iconPathOverride == RitualIconUpgrade.IconPath, "legacy ritual icon upgraded");
+                oldRitual.iconPathOverride = "Custom/Icon";
+                RitualIconUpgrade.UpgradeIcon(oldRitual);
+                Check(oldRitual.iconPathOverride == "Custom/Icon", "custom ritual icon preserved");
+                Log.Message("[CampfireSelfTest] COMPLETE 13 checks; no API calls.");
             }
             catch (Exception ex) { Log.Error("[CampfireSelfTest] FAIL " + ex); }
         }

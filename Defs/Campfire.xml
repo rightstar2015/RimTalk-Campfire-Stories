@@ -5,13 +5,14 @@
     <label>war song</label>
     <description>Gather around a lit campfire. One to three colonists take turns sharing a memory, from everyday moments to battles and absent friends.</description>
     <ritualPatternBase>CS_CampfireStories</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/CS_CampfireStories</iconPath>
     <allowDuplicates>false</allowDuplicates>
   </PreceptDef>
   <RitualPatternDef>
     <defName>CS_CampfireStories</defName>
     <shortDescOverride>war song</shortDescOverride>
     <descOverride>A fireside storytelling ritual. Nominate up to three storytellers, or leave the role empty for random selection.</descOverride>
-    <iconPathOverride>UI/Icons/Rituals/RitualFestival</iconPathOverride>
+    <iconPathOverride>UI/Icons/Rituals/CS_CampfireStories</iconPathOverride>
     <alwaysStartAnytime>true</alwaysStartAnytime>
     <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
     <ritualObligationTargetFilter>CS_Campfire</ritualObligationTargetFilter>
